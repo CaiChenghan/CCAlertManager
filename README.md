@@ -1,6 +1,6 @@
 # CCAlertManager
 
-[![CI Status](https://img.shields.io/travis/1178752402@qq.com/CCAlertManager.svg?style=flat)](https://travis-ci.org/1178752402@qq.com/CCAlertManager)
+[![CI Status](https://github.com/CaiChenghan/CCAlertManager.svg?style=flat)](https://travis-ci.org/1178752402@qq.com/CCAlertManager)
 [![Version](https://img.shields.io/cocoapods/v/CCAlertManager.svg?style=flat)](https://cocoapods.org/pods/CCAlertManager)
 [![License](https://img.shields.io/cocoapods/l/CCAlertManager.svg?style=flat)](https://cocoapods.org/pods/CCAlertManager)
 [![Platform](https://img.shields.io/cocoapods/p/CCAlertManager.svg?style=flat)](https://cocoapods.org/pods/CCAlertManager)
@@ -17,12 +17,12 @@ CCAlertManager is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CCAlertManager'
+pod 'CCAlertManager', '~>1.0.0'
 ```
 
 ## Author
 
-1178752402@qq.com, hankcai@hinabian.com
+1178752402@qq.com, 蔡成汉
 
 ## License
 

@@ -1,0 +1,16 @@
+PODS:
+  - CCAlertManager (1.0.0)
+
+DEPENDENCIES:
+  - CCAlertManager (from `../`)
+
+EXTERNAL SOURCES:
+  CCAlertManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCAlertManager: 5dc48c5faeea81a725aad074cb4693cddfd98eaa
+
+PODFILE CHECKSUM: b8bcd30a521d57de822f02a3917e6c7f7e5ba3b5
+
+COCOAPODS: 1.8.4

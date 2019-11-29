@@ -1,0 +1,6 @@
+framework module CCAlertManager {
+  umbrella header "CCAlertManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

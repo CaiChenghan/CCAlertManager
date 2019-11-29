@@ -17,7 +17,13 @@ CCAlertManager is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CCAlertManager', '~>1.0.0'
+platform :ios, '9.0'
+inhibit_all_warnings!
+source ‘https://github.com/CaiChenghan/CCRepo.git’
+source ‘https://github.com/CocoaPods/Specs.git’
+target 'MyApp' do
+    pod 'CCAlertManager', '~>1.0.0'
+end
 ```
 
 ## Author

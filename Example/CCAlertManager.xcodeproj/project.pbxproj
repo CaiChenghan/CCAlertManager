@@ -39,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		163984CEC534518B2AE8A4A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1B31B6DA278E818E00630B2B /* CCAlertManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAlertManager.h; sourceTree = "<group>"; };
+		1B31B6DB278E818E00630B2B /* CCAlertManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAlertManager.m; sourceTree = "<group>"; };
 		1B8791E72390EAD300A5DC4F /* AlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
 		1B8791E82390EAD300A5DC4F /* AlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
 		32EEB995B366115D9DD949D8 /* CCAlertManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CCAlertManager.podspec; path = ../CCAlertManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -98,9 +100,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B31B6D9278E818E00630B2B /* CCAlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				1B31B6DA278E818E00630B2B /* CCAlertManager.h */,
+				1B31B6DB278E818E00630B2B /* CCAlertManager.m */,
+			);
+			name = CCAlertManager;
+			path = ../CCAlertManager;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				1B31B6D9278E818E00630B2B /* CCAlertManager */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for CCAlertManager */,
 				6003F5B5195388D20070C39A /* Tests */,

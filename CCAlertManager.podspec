@@ -8,12 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CCAlertManager'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'iOS Alert Manager.'
-  s.description      = <<-DESC
-TODO: My iOS Alert Manager
-                       DESC
-
   s.homepage         = 'https://github.com/CaiChenghan/CCAlertManager'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1178752402@qq.com' => '蔡成汉' }

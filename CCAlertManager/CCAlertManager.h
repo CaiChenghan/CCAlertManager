@@ -13,21 +13,28 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CCAlertManager : NSObject
 
-+ (instancetype)sharedManager;
-- (void)addAlert:(UIViewController *)alert controllers:(NSArray<Class> *)controllers;
-- (void)addAlert:(UIViewController *)alert controllers:(NSArray<Class> *)controllers animated:(BOOL)animated;
+/// 添加弹窗：任意位置展示
++ (void)addAlertController:(UIViewController *)controller;
++ (void)addAlertController:(UIViewController *)controller animated:(BOOL)animated;
 
 @end
 
+@protocol CCAlertManagerProtocol <NSObject>
 
-@interface UIViewController (CCAlert)
+@optional
 
-@property (nonatomic, copy) void(^cc_deallocCallBack)(void);
+/// 弹窗白名单：只在白名单内展示
+- (NSArray *)cc_alertWhiteControllers;
 
-- (void)cc_didAlert;
+/// 弹窗黑名单：黑名单内不展示
+- (NSArray *)cc_alertBlackControllers;
+
+/// 弹窗弹出
+- (void)cc_alertControllerDidAlert;
+
+/// 强制弹窗
+- (BOOL)cc_alertControllerForce;
 
 @end
-
-
 
 NS_ASSUME_NONNULL_END

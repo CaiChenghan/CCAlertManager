@@ -17,8 +17,12 @@ inhibit_all_warnings!
 source ‘https://github.com/CaiChenghan/CCRepo.git’
 source ‘https://github.com/CocoaPods/Specs.git’
 target 'MyApp' do
-    pod 'CCAlertManager', '~>1.0.0'
+    pod 'CCAlertManager', '~>1.1.0'
 end
+```
+
+```ruby
+pod 'CCAlertManager', :git => 'https://github.com/CaiChenghan/CCAlertManager.git', :tag => '1.1.0'
 ```
 
 ## Author

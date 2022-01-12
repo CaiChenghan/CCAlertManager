@@ -41,7 +41,7 @@
 
 - (void)addAlert {
     AlertViewController *controller = [[AlertViewController alloc]init];
-    [[CCAlertManager sharedManager]addAlert:controller controllers:@[self.class]];
+    [CCAlertManager addAlertController:controller];
 }
 
 - (void)didReceiveMemoryWarning
